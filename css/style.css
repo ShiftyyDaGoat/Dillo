@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0D1117;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+
+    height:90px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:0 60px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+
+    height:55px;
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.25s;
+}
+
+nav a:hover{
+
+    color:#3ED66B;
+}
